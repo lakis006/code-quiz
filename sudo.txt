@@ -1,0 +1,9 @@
+
+
+In the home page we have
+    > welcome
+    > start button
+    > high score
+    > timer
+Home Page Actions
+    A. When the user clicks start > THEN we start the game AND start the time
