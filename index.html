@@ -15,8 +15,8 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Code Quiz</title>
 </head>
 
 <body>
@@ -24,41 +24,42 @@
     <header>
 
         <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand">High Scores</a>
-            <form class="form-inline">
-                <button class="btn btn-light ">Timer</button>
-            </form>
+            <div id="" class="highscore">
+                <button id="high-score">High Scores</button>
+            </div>
+            <div id="timer" class="timer"></div>
         </nav>
 
     </header>
-<div class="container">
-    <div class="quiz-containter">
+    <div class="container">
+        <div id="intro-container" class="">
+            <div id="text" class="">
+                <div id="text" class="">WELCOME WELLCOME </div>
+                <div id="text" class=""> TEST TEST  TEST TEST  TEST TEST  TEST TEST  TEST TEST </div>
+                <div class="controls">
 
-        <div class="question-number">
-            <h3>Question <span class="question-num-value">1</span> of 3</h3>
-        </div>
-        <div class="question">
-            How can I Be better than everyone?
-        </div>
-        <div class="options">
-            <div id="btn0" class="option1">Just Give Up!</div>
-            <div id="btn1" class="option2">Train Hard Everyday</div>
-            <div id="btn2" class="option3">Eat Your Veggies</div>
-            <div id="btn3" class="option4">Smoke Weed Everyday</div>
-        </div>
-        <div id="next" class="button">
-            <button type="button" class="btn btn-dark">Next</button>
-        </div>
-        <div class="answers-tracker">
+                        <button id="st-btn" class="st-btn">Start Quiz</button>
 
-            <div></div>
-            <div></div>
-            <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="quiz-container" class="">
+
+            <div id="question-number" class="">
+                <h3>Question 1 of 5</h3>
+            </div>
+            <div id="question" class="">
+                How can I be better than everyone?
+            </div>
+            <div id="options" class="">
+                <button id="btn0" class="option1">Just Give Up!</button>
+                <button id="btn1" class="option2">Train Hard Everyday</button>
+                <button id="btn2" class="option3">Eat Your Veggies</button>
+                <button id="btn3" class="option4">Call J.G. Wentworth 877-cashnow</button>
+            </div>
 
         </div>
-
     </div>
-</div>
     <script src="script.js"></script>
 </body>
 
