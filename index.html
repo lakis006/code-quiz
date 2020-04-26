@@ -23,10 +23,8 @@
 
     <header>
 
-        <nav class="navbar navbar-dark bg-dark">
-            <div id="" class="highscore">
-                <button id="high-score">High Scores</button>
-            </div>
+        <nav class="navbar navbar-light bg-light">
+            
             <div id="timer" class="timer"></div>
         </nav>
 
@@ -34,8 +32,10 @@
     <div class="container">
         <div id="intro-container" class="">
             <div id="text" class="">
-                <div id="text" class="">WELCOME WELLCOME </div>
-                <div id="text" class=""> TEST TEST  TEST TEST  TEST TEST  TEST TEST  TEST TEST </div>
+                <div id="text" class="">WELCOME! </div>
+                <div id="text" class=""> Feeling Lucky? Take the test!  
+
+                </div>
                 <div class="controls">
 
                         <button id="st-btn" class="st-btn">Start Quiz</button>
@@ -52,12 +52,26 @@
                 How can I be better than everyone?
             </div>
             <div id="options" class="">
-                <button id="btn0" class="option1">Just Give Up!</button>
+                <button id="btn0" class="option1" >Just Give Up!</button>
                 <button id="btn1" class="option2">Train Hard Everyday</button>
                 <button id="btn2" class="option3">Eat Your Veggies</button>
                 <button id="btn3" class="option4">Call J.G. Wentworth 877-cashnow</button>
             </div>
 
+        </div>
+        <div id="input-form-container" class="">
+            <div id="score-holder"> 
+                Your score is <span id="score"> ##### </span> 
+            </div>
+            <input id="input-field" placeholder="Please enter yourname" type="text">
+            <button id="submit" class=""> SUBMIT </button>
+        </div>
+        <div id="highscore-container" class="">
+            <div id="score-list">
+                THERE WILL BE SCORES HERE
+            </div>
+            <button id="home-btn"> HOME PAGE </button>
+            <button id="clear-btn"> Clear High Scores </button>
         </div>
     </div>
     <script src="script.js"></script>

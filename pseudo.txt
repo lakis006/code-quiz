@@ -6,4 +6,12 @@ In the home page we have
     > high score
     > timer
 Home Page Actions
-    A. When the user clicks start > THEN we start the game AND start the time
+
+What is left to be done 
+1. Prompt User after Questions with "Correct" or "Wrong" message after button
+2. Fix Question 1 - 4 
+3  When wrong answer clicked then timer gets subtracted.
+4  When time runs out quiz over
+5  When 4th question answered quiz over
+6  When quiz over prompt user with initials
+7  after initials, user is brought to high scores
