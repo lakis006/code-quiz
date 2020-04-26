@@ -273,6 +273,16 @@ var queList = [
             { text: "cat", correct: false },
             { text: "apple", correct: false }
         ]
+    },
+    {
+        ask: "what says Moo?",
+
+        answers: [
+            { text: "dog", correct: false },
+            { text: "cow", correct: true },
+            { text: "cat", correct: false },
+            { text: "apple", correct: false }
+        ]
     }
 ]
 
