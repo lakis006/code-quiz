@@ -8,4 +8,4 @@ after the 30 second timed quiz is over, the user gets taken to a submit name pag
 
 after the user submits their name, they are taken to a scores page after saving their credentials into the local storage 
 
-link to deployed application ====> 
+link to deployed application ====> https://lakis006.github.io/code-quiz/.
